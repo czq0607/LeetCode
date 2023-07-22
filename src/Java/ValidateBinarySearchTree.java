@@ -1,16 +1,5 @@
 package Java;
 
-// 二叉树节点类
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-}
-
 public class ValidateBinarySearchTree {
 
     public static boolean isValidBST(TreeNode root) {
